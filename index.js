@@ -68,3 +68,21 @@ inquirer
             err ? console.log(err) : console.log("Success");
         });
     });
+
+switch (licenseUsed) {
+    case "Apache License 2.0":
+        licenseUsed = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+        break;
+    case "GNU General Public License v3.0":
+        licenseUsed = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+        break;
+    case "MIT License":
+        licenseUsed = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+        break;
+    case "BSD 2-Clause 'Simplified' License":
+        licenseUsed = "[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)";
+        break;
+    case "BSD 3-Clause 'New' or 'Revised' License":
+        licenseUsed = "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
+        break;
+}
