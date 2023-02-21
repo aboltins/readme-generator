@@ -1,2 +1,2 @@
 # readme-generator
-command line readme generator
+Command line readme generator

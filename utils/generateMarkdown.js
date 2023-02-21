@@ -46,7 +46,7 @@ To run tests, run the following command:
 
 ## Questions
 
-${data.questions}
+Please feel free to visit my other projects on [github.com/${data.github}](github.com/${data.github}). If you have any questions feel free to reach out to me on <${data.email}>.
 `;
 }
 // generateMarkdown function is being exported so that it can be used in other parts of the codebase.

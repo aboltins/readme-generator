@@ -45,8 +45,13 @@ inquirer
         },
         {
             type: 'input',
-            message: 'Questions:',
-            name: 'questions',
+            message: 'Developers email that will be added to the questions section:',
+            name: 'email',
+        },
+        {
+            type: 'input',
+            message: 'Developers Github username that will be added to the questions section:',
+            name: 'github',
         }
     ])
 
