@@ -45,17 +45,11 @@ MIT License
 
 Fork and pull request.
 
-## Tests
-
-To run tests, run the following command:
-
-    npm test
-
 ## Screenshots
 
-![](./images/readme-gen-ss1.png)
-![](./images/readme-gen-ss2.png)
-![](./images/readme-gen-ss3.png)
+![1](./images/readme-gen-ss1.png)
+![2](./images/readme-gen-ss2.png)
+![3](./images/readme-gen-ss3.png)
 
 ## Questions
 
