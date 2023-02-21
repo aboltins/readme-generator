@@ -58,7 +58,7 @@ ${data.license}
 
 ## Contributing
 
-${data.contributing}.
+${data.contributing}
 
 ## Tests
 

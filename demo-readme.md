@@ -27,7 +27,7 @@ See a demo of the Node.js Readme Generator for Command Line in action, generatin
 
 ## Usage
 
-To use this application, run 'node index.js'.
+To use this application, run ```node index.js```.
 
 ## License
 
@@ -35,7 +35,7 @@ BSD 3-Clause 'New' or 'Revised' License
 
 ## Contributing
 
-Fork and Pull from Github..
+Fork and Pull request.
 
 ## Tests
 
@@ -45,4 +45,4 @@ To run tests, run the following command:
 
 ## Questions
 
-If you have any questions or want to check out my other projects, please visit me on [GitHub](https://github.com/aboltins) or feel free to email me at <demo@demo.com>.
+If you have any questions or want to check out my other projects, please visit me on [GitHub](https://github.com/aboltins) or feel free to email me at <demo@demo.demo>.
