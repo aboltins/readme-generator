@@ -29,6 +29,7 @@ The user can also choose from a list of most common open source licenses, and th
 
 ## Installation
 
+To install the required dependencies, execute the subsequent command:
     npm install
 
 ## Usage
