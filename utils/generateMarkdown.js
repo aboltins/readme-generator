@@ -19,8 +19,8 @@ function generateMarkdown(data) {
       licenseUsed = "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
       break;
   }
-  // return statement is necessary to return the
-  // generated markdown string to the writeFile function call in index.js.
+  // return statement is necessary to return the generated 
+  // markdown string to the writeFile function call in index.js.
   return `
 # ${data.title}
 
