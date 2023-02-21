@@ -44,11 +44,16 @@ const questions =
                 name: 'questions',
             }
         ])
-        
-        // function to write README file
-        .then((data) => {
-            const filename = `${data.title.toLowerCase().split('').join('')}.md`;
 
+        // function to write README file
+
+        .then((data) => {
+            // creates the new file name/adds lowercase/removes all spaces for file name
+            // then adds the file extension as md.
+            const filename = `${data.title.toLowerCase().split('').join('')}.md`;
+            // file system writes a new file with the above file name and data from generateMarkdown
+            // and If there is an error, the console.log(err) statement will log the error to the console. 
+            // If the write was successful, the console.log("Success") statement will log a success message to the console.
             fs.writeFile(filename, generateMarkdown(data), (err) => {
                 err ? console.log(err) : console.log("Success");
             });
